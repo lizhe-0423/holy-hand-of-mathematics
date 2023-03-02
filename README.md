@@ -5,7 +5,7 @@
 
 -- 用户表信息
 
-`create table if not exists hhom.`user`
+create table if not exists hhom.`user`
 (
 `id` bigint not null comment '主键' primary key,
 `username` varchar(256) not null comment '用户名',
@@ -26,7 +26,7 @@
 `create_time` datetime default 'CURRENT_TIMESTAMP' not null comment '创建时间',
 `is_deleted` tinyint default 0 not null comment '是否删除(0-未删, 1-已删)'
 ) comment '用户表信息';
-`
+
 ## 功能
 1. 用户登录注册 唯一id uuid/雪花算法
 2. 用户表中积分 是 答题pk 中 增加 积分 
@@ -36,7 +36,7 @@
 ## 题库表
 
 -- 测试题库
-`
+
 create table if not exists hhom.`test_question`
 (
 `question_id` INT not null auto_increment comment '题目题号' primary key,
@@ -46,7 +46,8 @@ create table if not exists hhom.`test_question`
 `question_value` INT default '10' not null comment '题目分数',
 `quest_integral` smallint default 1 not null comment '题目积分'
 ) comment '测试题库';
-`
+
+
 
 ## 功能
 1. 答题根据答案 筛选是否正确
