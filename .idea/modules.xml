@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hhom/hhom.iml" filepath="$PROJECT_DIR$/hhom/hhom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/holy-hand-of-mathematics.iml" filepath="$PROJECT_DIR$/.idea/holy-hand-of-mathematics.iml" />
+    </modules>
+  </component>
+</project>
